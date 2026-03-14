@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
 
-import img1 from "../assets/company1.jpg"
+import img1 from "../assets/company1test.jpg"
 import img2 from "../assets/company2.jpg"
 import img3 from "../assets/company3.jpg"
 import img4 from "../assets/company4.jpg"

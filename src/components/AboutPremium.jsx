@@ -1,4 +1,4 @@
-import aboutImg from "../assets/company1.jpg"
+import aboutImg from "../assets/company1test.jpg"
 import FloatingDecor from "../components/FloatingDecor"
 
 function AboutPremium() {
