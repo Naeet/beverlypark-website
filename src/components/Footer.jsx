@@ -16,11 +16,11 @@ function Footer() {
 
       {/* Dark Overlay for readability */}
 
-      <div className="absolute inset-0 bg-[#174753]/75"></div>
+      <div className="absolute inset-0 bg-[#174753]/10"></div>
 
       {/* Content */}
 
-      <div className="relative max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+      <div className="relative max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-20">
 
         {/* Brand */}
 
@@ -45,7 +45,7 @@ function Footer() {
             Explore
           </h4>
 
-          <ul className="space-y-2 text-white/85 text-sm">
+          <ul className="space-y-2 text-white/100 text-sm">
 
             <li>
               <a href="#about" className="hover:text-[#d68760] transition">

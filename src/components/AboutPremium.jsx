@@ -6,6 +6,7 @@ function AboutPremium() {
     <section
       id="about"
       className="relative py-24 px-6 md:px-20 bg-[#faf7f5]"
+      data-aos="fade-up"
     >
         <FloatingDecor />
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">

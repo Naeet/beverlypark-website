@@ -12,11 +12,11 @@ function ScrollProgress() {
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight
 
-      const progress =
-        (window.scrollY / totalHeight) * 100
+      const scrollPosition = window.scrollY
+
+      const progress = (scrollPosition / totalHeight) * 100
 
       setScroll(progress)
-
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -28,9 +28,15 @@ function ScrollProgress() {
   return (
 
     <div
-      className="fixed top-0 left-0 h-1 bg-[#d68760] z-50"
-      style={{ width: `${scroll}%` }}
-    />
+    id="scroll-progress" 
+    className="fixed top-0 left-0 w-full h-[4px] bg-transparent z-[9999]">
+
+      <div
+        className="h-full bg-gradient-to-r from-[#174753] to-[#d68760] shadow-[0_0_10px_rgba(214,135,96,0.7)] transition-all duration-200"
+        style={{ width: `${scroll}%` }}
+      />
+
+    </div>
 
   )
 

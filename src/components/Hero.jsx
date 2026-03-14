@@ -39,6 +39,12 @@ function Hero({ openTour }) {
 
     <section id="home" className="relative h-screen overflow-hidden">
 
+        {/* Floating glow effects */}
+
+<div className="absolute top-32 left-16 w-72 h-72 bg-[#d68760]/20 blur-3xl rounded-full animate-pulse"></div>
+
+<div className="absolute bottom-32 right-16 w-72 h-72 bg-[#174753]/20 blur-3xl rounded-full animate-pulse"></div>
+
       {/* Background images */}
 
       {slides.map((slide, index) => (
@@ -55,7 +61,7 @@ function Hero({ openTour }) {
 
       {/* Dark overlay */}
 
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
 
       {/* Content */}
 
@@ -65,7 +71,9 @@ function Hero({ openTour }) {
 
           {/* Title */}
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-wide">
+          <h1
+         
+          className="text-5xl md:text-6xl font-bold mb-6 tracking-wide">
             Beverly Park Adult Family Home
           </h1>
 

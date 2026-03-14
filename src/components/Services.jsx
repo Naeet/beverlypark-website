@@ -45,9 +45,10 @@ function Services() {
   return (
     <section
       id="services"
-      className="relative py-28 px-6 md:px-16 bg-[#faf7f5]"
+      className="relative py-28 px-6 md:px-16 bg-gradient-to-b from-[#faf7f5] to-white"
     >
         <FloatingDecor />
+        
       <div className="max-w-6xl mx-auto">
         
 

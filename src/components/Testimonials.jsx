@@ -29,7 +29,7 @@ function Testimonials() {
 
   return (
 
-    <section className="py-28 px-6 md:px-16 bg-gradient-to-b from-[#faf7f5] to-white">
+    <section className="py-28 px-6 md:px-16 bg-gradient-to-b from-[#faf7f5] to-white" data-aos="fade-up">
 
       <div className="max-w-5xl mx-auto text-center">
 
