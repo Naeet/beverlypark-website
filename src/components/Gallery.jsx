@@ -7,6 +7,7 @@ import img3 from "../assets/company3.jpg"
 import img4 from "../assets/company4.jpg"
 import img5 from "../assets/company5.jpg"
 import img6 from "../assets/company6.jpg"
+import img7 from "../assets/company7.jpg"
 
 const images = [
   { src: img1, title: "Front Exterior" },
@@ -14,7 +15,8 @@ const images = [
   { src: img3, title: "Dining Space" },
   { src: img4, title: "Private Bedroom" },
   { src: img5, title: "Comfortable Interior" },
-  { src: img6, title: "Relaxing Environment" }
+  { src: img6, title: "Relaxing Environment" },
+  { src: img7, title: "Parking lot" }
 ]
 
 function Gallery() {
